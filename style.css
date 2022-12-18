@@ -119,7 +119,34 @@ body
 
 @media (max-width: 991px) 
 {
-    
+  .card
+  {
+    width: auto;
+    max-width: 350px;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .card:hover 
+  {
+    height: 600px;
+  }   
+  .card .content
+  {
+    width: 100%;
+    left: 0;
+    padding: 30px;
+  }
+  .card:hover img 
+  {
+    top: 70%;
+    left: 50%;
+    height: 320px;
+  }
 }
 
-
+@media (max-width: 420px){
+    .card .content
+    {
+      padding: 20px;
+    }
+ }
